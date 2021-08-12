@@ -1,3 +1,13 @@
-# 10v04d & v1.1.0-pre3
-### Add
-1. 显示更新内容
+# 10v04e & v1.1.0-pre4
+### Fixed
+1. 主窗口高度略偏小
+2. Windows中因编码问题不能正常获取更新内容
+### Others
+1. 内涵图很不稳定，故不推荐使用
+2. 产生的临时文件用完即删
+### Known problems
+1. &emsp;File "./wi_nh.py", line 100, in setupUi\
+&emsp;&emsp;palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)\
+AttributeError: type object 'QPalette' has no attribute 'PlaceholderText'
+因不影响使用，已经被注释掉
+2. 有时Windows中更新窗口无法正常显示
