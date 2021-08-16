@@ -1,5 +1,3 @@
-# v10v04f & v1.1.0-pre5
-### Fixed
-1. 有时Windows中更新窗口无法正常显示
-### Others
-1. 重命名 changelog.md -> CHANGELOG.md
+# 10v05a
+### Add
+1. 图标
